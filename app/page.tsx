@@ -6,9 +6,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { useCallback, useEffect, useRef } from "react";
 
-export const dynamic = "force-static";
-export const revalidate = 86400;
-
 function interpolate(value: number, from: number, to: number) {
   const distance = (value - from) / to;
   if (distance >= 1) return 1;
