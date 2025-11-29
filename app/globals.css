@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  background: #030605;
+  color: #aec6b5;
+  font-family: var(--font-sans);
+}
+
+body:has(#curtains) {
+  overflow: hidden;
+}
+
+.text-shadow-glow {
+  text-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+}
